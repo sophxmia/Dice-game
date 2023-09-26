@@ -1,3 +1,7 @@
 body {
   background-color: #f4f3ea;
 }
+.dice-app-wrapper {
+  max-width: 660px;
+  margin: 30px auto;
+}
