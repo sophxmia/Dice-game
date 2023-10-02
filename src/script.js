@@ -16,3 +16,9 @@ if (firstDiceCount > secondDiceCount) {
 } else {
   headingTitle.innerHTML = "Dead Heat 💪";
 }
+function playNewRound(event) {
+  window.location.reload();
+}
+
+let new_game = document.querySelector("#new-game");
+new_game.addEventListener("click", playNewRound);
